@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(sunset.jpg);
+	background: url(leaves.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -9,23 +9,33 @@ body{
 	}
 
 h1{
-	margin-top: 60px;
+	margin-top: 33px;
 	font-size: 28px;
 	text-align:center;
-	color: #ffd460;
+	color: #6fc2d0;
+	background: #a2663e;
+	opacity: 0.9;
 	}
 	
- 
+.signup{
+  column-count: 2;
+  column-gap: 50px;
+}
+
+.signupbut{
+  column-count: 1;
+  column-gap: 50px;
+}
 
 .signup{
-	width: 1100px;
-	height: 450px;
+	width: 1200px;
+	height: 500px;
 	border-radius: 5%;
-	background: #2d4059;
-	opacity: 0.8;
-	color: #ffd460;
+	background: #a2663e;
+	opacity: 0.9;
+	color: #6fc2d0;
     position: absolute;
-	padding: 30px 40px;
+	padding: 20px 30px;
 	top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -35,7 +45,7 @@ h1{
 .signup p{
 	margin: 10;
 	padding: 50px;
-	color: #ffd460;
+	color: #6fc2d0;
 	}
 	
 .signup input{
@@ -47,8 +57,8 @@ h1{
 .signup input[type = "text"]{
 	border: 50px;
 	background: transparent;
-	color: #ffd460;
-	border-bottom: 1px solid #ffd460;
+	color: #6fc2d0;
+	border-bottom: 1px solid #6fc2d0;
 	height: 30px;
 	font-size: 13px;
 	outline: none;
@@ -57,8 +67,8 @@ h1{
 .signup input[type = "password"]{
 	border: none;
 	background: transparent;
-	color: #ffd460;
-	border-bottom: 1px solid #ffd460;
+	color: #6fc2d0;
+	border-bottom: 1px solid #6fc2d0;
 	height: 30px;
 	font-size: 13px;
 	outline: none;
@@ -67,13 +77,23 @@ h1{
 .signup input[type = "repassword"]{
 	border: none;
 	background: transparent;
-	color: #ffd460;
-	border-bottom: 1px solid #ffd460;
+	color: #6fc2d0;
+	border-bottom: 1px solid #6fc2d0;
 	height: 30px;
 	font-size: 13px;
 	outline: none;
 	}
 	
+.signup input[type = "number"]{
+	border: 50px;
+	background: transparent;
+	color: #6fc2d0;
+	border-bottom: 1px solid #6fc2d0;
+	height: 30px;
+	font-size: 13px;
+	outline: none;
+	}
+
 .birthday {
 	height: 30px;
 	margin-top: 20px;
@@ -82,8 +102,8 @@ h1{
 }
 	
 .signup input[type="submit"] {
-	background: #ffd460;
-    color: #2d4059;
+	background: #6fc2d0;
+    color: #373a6d;
 	width: 240px;
     height: 35px;
     font-size: 13px;
@@ -91,23 +111,22 @@ h1{
 	border: none;
     outline: none;
 	margin-top:50px;
-	margin-left:100px;
+	margin-left:150px;
 	font-family: 'Spartan', sans-serif;
 }
 
 .signup input[type="submit"]:hover{ 
-    background: #e76f51;
-    color: #e9c46a;
+    background: #beeef7;
 	}
 	
 .signup a{
 	text-decoration:none;
-	color: #ffd460;
+	color: #6fc2d0;
 	font-size: 11px;
 	line-height:40px;
-	margin-left: 102px;	
+	margin-left: 153px;	
 	}	
 
 .signup a:hover{
-    color: #f07b3f;
+    color: #beeef7;
 	}
