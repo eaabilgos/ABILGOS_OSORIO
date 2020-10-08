@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(sunset.jpg);
+	background: url(leaves.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -9,16 +9,22 @@ body{
 	}
 
 h1{
-	margin-top: 60px;
+	margin-top: 50px;
 	font-size: 28px;
 	text-align:center;
 	color: #ffd460;
+	background: #a2663e;
+	opacity: 0.9;
 	}
+.loginform{
+	column-count: 1;
+ 	column-gap: 60px;
+ 	}
 .loginform{
 	width: 1100px;
 	height: 450px;
 	border-radius: 5%;
-	background: #2d4059;
+	background: #a2663e;
 	opacity: 0.8;
 	color: #ffd460;
     position: absolute;
@@ -28,19 +34,16 @@ h1{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
 	}
-.loginform{
-	column-count: 1;
- 	column-gap: 50px;
- 	}
+
 .loginform p{
-	margin: 10;
+	margin: 20px;
 	padding: 50px;
 	color: #ffd460;
 	}
 .loginform input{
-    width: 100%;
-	margin-top: 2px;
-	margin-bottom:2px;
+    width: 70%;
+	margin-top: 5px;
+	margin-bottom:3px;
 	}	
 .loginform button{
 	background: #ffd460;
@@ -59,35 +62,34 @@ h1{
 	background: transparent;
 	color: #ffd460;
 	border-bottom: 3px solid #ffd460;
-	height: 25px;
+	height: 30px;
 	outline: none;
 	margin-top: 5px;
 	}
 
 .loginform input[type = "password"]{
 	border: none;
-	background: #ffd460;
+	background: transparent;
 	color: #ffd460;
-	border-bottom: 3px solid #ffd460;
-	height: 25px;
+	border-bottom: 5px solid #ffd460;
+	height: 30px;
 	outline: none;
 	margin-top: 5px;
 	}
 	
 .loginform button{
-	background: pink;
+	background: white;
     color: pink;
 	width: 240px;
-    height: 35px;
+    height: 40px;
     font-size: 13px;
 	border-radius: 15px;
-	margin-bottom: -5px;
 	border: none;
     outline: none;
 	}
 
 .loginform button:hover{ 
-    background: gray;
+    background: black;
     color:#ffd460;
     font-family: 'Optima', sans-serif;
 	}
@@ -95,7 +97,7 @@ h1{
 .loginform a{
 	text-decoration:none;
 	color: #ffd460;
-	font-size: 11px;
+	font-size: 15px;
 	line-height:50px;
 	margin-left: 8.8px;	
 	}	
