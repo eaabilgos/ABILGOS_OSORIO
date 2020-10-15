@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>WELCOME!</title>
+	<link rel = "stylesheet" href = "registerearp.css">
+	<script src = "registerearp.js"></script>
+	
+</head>
+
+<body>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap">
+	<h1>ACCOUNT REGISTRATION</h1>
+	<form id="form" action="registerearp.php" method="POST" class="form">
+		<div class = "signup">
+		
+			<div>
+
+			<label for="lastname"><b>Last Name: </b></label>
+			<input type="text" name="lname" id="lname" required>
+			
+			</div>
+			<br>
+			<div>
+				<span class="b">
+					<label for="firstname"><b>First Name: </b></label>
+					<input type="text" name="fname" id="fname" required>
+				</span>
+			
+				<span class="b">
+					<label for="midinitial"><b>M.I: </b></label>
+					<input type="text" name="midi" id="midi" maxlength="2">
+				</span>
+			
+			</div>
+			<br>
+			<div>
+			
+			<label for="studno"><b>Student Number: </b></label>
+			<input type="number" name="studno" id="studno" required>
+			
+			</div>
+			<br>
+			<div>
+				<span class="b">		
+					<label for="yrlvl"><b>Year Level: </b></label>
+					<select name="yrlvl" id="yrlvl">
+						<option value="5">5th Year</option>
+						<option value="4">4th Year</option>
+						<option value="3">3rd Year</option>
+						<option value="2">2nd Year</option>
+						<option value="1">1st Year</option>
+					</select>
+				</span>
+				
+				<span class="b">
+					<label for="birthday">Birth Date: </label>
+					<input type="date" id="birthday" name="birthday">
+				</span>
+			</div>
+			
+			<div>
+			
+			<label for="mobno"><b>Mobile Number: [+63] </b></label>
+			<input type="number" name="mobno" id="mobno" required>
+			
+			</div>
+			<br>
+			<div>
+			
+			<label for="email"><b>UE Email Address: </b></label>
+			<input type="email" name="email" id="email" required>
+			
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div>
+			
+			<label for="usern"><b>Username: </b></label>
+			<input type="text" name="usern" id="usern" required>
+
+			</div>
+			<br>
+			<div>
+			
+			<label for="psw"><b>Password: </b></label>
+			<input type="password" name="psw" id="psw" required>
+
+			</div>
+			<br>
+			<div>
+			
+			<label for="repsw"><b>Confirm Password: </b></label>
+			<input type="password" name="repsw" id="repsw" required>
+
+			</div>
+			<br>
+			<br>
+			<div>
+			
+			<label class="container">Terms and Conditions
+				<input type="checkbox" id="termsnco" required>
+				<span class="checkmark"></span>
+					<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.
+					Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+			</label>
+			
+			</div>
+			
+			<div>
+			
+			<button onclick="return myFunction()" id="register" name="register">REGISTER</button>
+			<br>
+			
+			</div>
+		
+		</div>
+		
+	</form>
+
+</body>
+</html>
